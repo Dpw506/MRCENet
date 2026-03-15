@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.log
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.png
+*.jpg
+*.tif
+datasets/
+runs/
+checkpoints/
