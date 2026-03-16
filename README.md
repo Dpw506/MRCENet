@@ -10,6 +10,8 @@ Multi-modal medical image fusion aimed to combine images from different modaliti
 ## 🧠 Network Architecture
 The overall framework of MRCE-Net is illustrated below.
 
+<img src="figures/framework.png" width="80%">
+
 ## ⚙️ Installation
 
 ### 1. Clone the repository
@@ -49,6 +51,14 @@ To train the MRCE-Net model:
 ```python
 python train_MRCE.py
 ```
+## 🔍 Testing
+To evaluate the trained model:
+```python
+python test.py
+```
+
+## 📊 Results
+<img src="figures/framework.png" width="80%">
 
 ## 📄 Citation
 If you use this code or models in your research and find it helpful, please cite the following paper:
