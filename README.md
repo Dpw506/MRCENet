@@ -58,7 +58,11 @@ python test.py
 ```
 
 ## 📊 Results
-<img src="figures/framework.png" width="80%">
+Subjective and objective comparisons with state-of-the-art methods:
+
+<img src="figures/results1.png" width="40%">
+
+<img src="figures/results2.png" width="40%">
 
 ## 📄 Citation
 If you use this code or models in your research and find it helpful, please cite the following paper:
