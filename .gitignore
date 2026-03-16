@@ -11,6 +11,6 @@ __pycache__/
 *.png
 *.jpg
 *.tif
-datasets/
+dataset/
 runs/
 checkpoints/
