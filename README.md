@@ -10,6 +10,45 @@ Multi-modal medical image fusion aimed to combine images from different modaliti
 ## 🧠 Network Architecture
 The overall framework of MRCE-Net is illustrated below.
 
+## ⚙️ Installation
+
+### 1. Clone the repository
+git clone https://github.com/Dpw506/MRCENet.git 
+
+cd MRCENet
+
+### 2. Create environment
+conda create -n mrcenet python=3.12.7
+
+conda activate mrcenet
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+## 📂 Dataset
+We evaluate our method on several multi-modal medical image datasets and in-house datasets:
+
+- Harvard PET-MRI dataset
+- Harvard MRI-SPECT dataset
+- Harvard MRI-CT dataset
+- WHU-MRI-PET dataset
+
+Organize the dataset as follows:
+```
+dataset/
+ ├── train
+ │    ├── modality1
+ │    └── modality2
+ └── test
+      ├── modality1
+      └── modality2
+```
+
+## 🚀 Training
+To train the MRCE-Net model:
+```python
+python train_MRCE.py
+```
 
 ## 📄 Citation
 If you use this code or models in your research and find it helpful, please cite the following paper:
