@@ -8,7 +8,6 @@ __pycache__/
 *.npz
 *.nii
 *.nii.gz
-*.png
 *.jpg
 *.tif
 dataset/
